@@ -6,4 +6,10 @@ npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose r
 
 npm i -D nodemon concurrently
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mani-bhushan/test.git
+git push -u origin master
+
 # devconnector_setup
