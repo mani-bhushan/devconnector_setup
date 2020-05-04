@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Users & Auth",
+		"_postman_id": "fd989b03-88cf-7d26-567a-e769dbcbcb52",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"url": "http://localhost:5000/api/users/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Mani Bhushan\",\n\t\"email\": \"mani.bhushan@gmail.com\",\n\t\"password\":\"password\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
